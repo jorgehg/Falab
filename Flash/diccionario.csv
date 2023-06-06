@@ -1,0 +1,356 @@
+﻿CamposViejos,CamposNuevos
+Estrategia Apertura.Input.Antecedente.number1,Auxiliar LDS.Empleo.Salario
+Estrategia Apertura.Input.Antecedente.string1,Input LDS.Datos Cliente Existente.RFMFlag
+Estrategia Apertura.Input.Antecedente.string3,Auxiliar LDS.Cupo.NivelRiesgo
+Estrategia Apertura.Input.Antecedentes buro.Monto Mora On-Line,Auxiliar LDS.Cuenta.SumaPagosMensualesNominaVigentes
+Estrategia Apertura.Input.Antecedentes buro.Monto Protesto On-Line,Auxiliar LDS.Cuenta.SumaPagosMensualesPersonalVigentes
+Estrategia Apertura.Input.Antecedentes como adicional de otra cuenta - la peor cuenta.Adicional,Input LDS.Datos Buro.TipoSIC[1]
+Estrategia Apertura.Input.Antecedentes como adicional de otra cuenta - la peor cuenta.Score adicional,Input LDS.Datos Cliente Existente.CodigoPostal
+Estrategia Apertura.Input.Antecedentes como cliente en otra cuenta.Cupo linea 1,Auxiliar LDS.Cuenta.SumaSaldoActualNominaVigentes
+Estrategia Apertura.Input.Antecedentes como cliente en otra cuenta.Cupo linea 2 Cconsumo,Auxiliar LDS.Cuenta.SumaSaldoActualComercialVigentes
+Estrategia Apertura.Input.Antecedentes como cliente en otra cuenta.Dias de Mora al renegociar,Input LDS.Datos Cliente Existente.RFMAnioNac
+Estrategia Apertura.Input.Antecedentes como cliente en otra cuenta.Fecha Ultima Renegociacion,Input LDS.Datos Cliente Existente.EmpleadoFechaIngreso
+Estrategia Apertura.Input.Antecedentes como cliente en otra cuenta.Producto,Input LDS.Datos Buro.Empleo_ClaveMonedaSalario[1]
+Estrategia Apertura.Input.Antecedentes como cliente en otra cuenta.Renta confirmada,Auxiliar LDS.Cuenta.MOP 5 Historico
+Estrategia Apertura.Input.Antecedentes como cliente en otra cuenta.Saldo maximo,Auxiliar LDS.Cuenta.ScoreBuro_CONC_SIS
+Estrategia Apertura.Input.Antecedentes como cliente en otra cuenta.Subproducto,Auxiliar LDS.Cuenta.ClaveMonetariaPrestamos
+Estrategia Apertura.Input.Antecedentes como cliente en otra cuenta.Total deuda avance,Auxiliar LDS.Cuenta.ScoreBuro_DISPU_SIS
+Estrategia Apertura.Input.Antecedentes de la solicitud.Origen solicitud,Input LDS.Datos Buro.ConexionConectado[1]
+Estrategia Apertura.Input.Antecedentes de la solicitud.Promotor,Input LDS.Datos Cliente Existente.EmpleadoNombreEmpresa
+Estrategia Apertura.Input.Antecedentes de la solicitud.Sucursal apertura,Input LDS.Datos Solicitud.SucursalApertura
+Estrategia Apertura.Input.Antecedentes particulares.Antiguedad domicilio,Input LDS.Datos Cliente Existente.AntiguedadDomicilio
+Estrategia Apertura.Input.Antecedentes particulares.Cargo u ocupacion del solicitante,Input LDS.Datos Cliente Existente.CargoUOcupacionDelSolicitante
+Estrategia Apertura.Input.Antecedentes particulares.Estado Carnet Identidad,Auxiliar LDS.Cuenta.MOP_Actual
+Estrategia Apertura.Input.Antecedentes particulares.Estado civil,Input LDS.Datos Cliente Existente.EstadoCivil
+Estrategia Apertura.Input.Antecedentes particulares.Fecha de ingreso al trabajo,Input LDS.Datos Cliente Existente.Fechadeingresoaltrabajo
+Estrategia Apertura.Input.Antecedentes particulares.Fecha de nacimiento,Input LDS.Datos Cliente Existente.Fechadenacimiento
+Estrategia Apertura.Input.Antecedentes particulares.Fono Particular,Auxiliar LDS.Cupo.CupoMaximo2
+Estrategia Apertura.Input.Antecedentes particulares.Funcionario,Auxiliar LDS.Cuenta.ScoreBuro_PEOR_MOP_24M_MORAS
+Estrategia Apertura.Input.Antecedentes particulares.Giro o actividad de la empresa,Input LDS.Datos Cliente Existente.GiroOActividadDeLaEmpresa
+Estrategia Apertura.Input.Antecedentes particulares.Nacionalidad,Input LDS.Datos Cliente Existente.Nacionalidad
+Estrategia Apertura.Input.Antecedentes particulares.Nivel estudios,Input LDS.Datos Cliente Existente.NivelEstudios
+Estrategia Apertura.Input.Antecedentes particulares.Nro Cargas,Input LDS.Datos Buro.Nombre_NumeroDependientes[1]
+Estrategia Apertura.Input.Antecedentes particulares.Renta,Input LDS.Datos Cliente Existente.Renta
+Estrategia Apertura.Input.Antecedentes particulares.Sexo,Input LDS.Datos Cliente Existente.Genero
+Estrategia Apertura.Input.Antecedentes particulares.Tamanio empresa,Input LDS.Datos Buro.FlagConexion[1]
+Estrategia Apertura.Input.Antecedentes particulares.Tipo de apertura,Auxiliar LDS.Cuenta.ScoreBuro_PEOR_MOP_ACTUAL_MORAS
+Estrategia Apertura.Input.Antecedentes particulares.Tipo de Vivienda,Input LDS.Datos Cliente Existente.TipoDeVivienda
+Estrategia Apertura.Input.Antecedentes particulares.Vehiculo especial,Resultados LDS.EvalProducto.CF.Filler6X20
+Estrategia Apertura.Input.Codeudor.Dias de mora aval,Input LDS.Datos Cliente Existente.RFMCP
+Estrategia Apertura.Input.Codeudor.Habito Pago Aval,Input LDS.Datos Solicitud.Llamada
+Estrategia Apertura.Input.Codeudor.Monto Fianza,Auxiliar LDS.Cuenta.LimiteCreditoMaximoTCVigentes
+Estrategia Apertura.Input.Codeudor.Renta Aval,Auxiliar LDS.Cuenta.SumaLimiteCreditoTCVigentes
+Estrategia Apertura.Input.Codeudor.Tiene cuenta en CMR,Auxiliar LDS.Cuenta.MOP mayor a 2 U12M
+Estrategia Apertura.Input.Estados - Bloqueos.Fecha ultimo estado del contrato,Auxiliar LDS.Cuenta.FechaAperturaTCVigentesActiva
+Estrategia Apertura.Input.Estados - Bloqueos.Otros Bloqueos,Input LDS.Datos Buro.Empleo_BaseSalarial[1]
+Estrategia Apertura.Input.Observaciones.Fecha Observacion 1,Auxiliar LDS.Cuenta.FechaAperturaPersonalesVigentes
+Estrategia Apertura.Input.Observaciones.Fecha Observacion 2,Auxiliar LDS.Cuenta.FechaAperturaAutomotrizVigentes
+Estrategia Apertura.Input.Observaciones.Fecha Observacion 3,Auxiliar LDS.Cuenta.FechaAperturaHipotecarioVigentes
+Estrategia Apertura.Input.Observaciones.Posee observacion 1,Auxiliar LDS.Cuenta.ScoreBuro_PEOR_MOP_24M_CTA_CTE
+Estrategia Apertura.Input.Observaciones.Posee Observacion  3,Input LDS.Datos Cliente Existente.DireccionDistintaalINE
+Estrategia Apertura.Input.Previred.Periodo 1,Auxiliar LDS.Cuenta.Conteo MOP 3 U12M
+Estrategia Apertura.Input.Previred.Periodo 2,Auxiliar LDS.Cuenta.Conteo MOP 4 U12M
+Estrategia Apertura.Input.Previred.Periodo 3,Auxiliar LDS.Cuenta.ConteoCuentasAbiertas
+Estrategia Apertura.Input.Previred.Periodo 4,Auxiliar LDS.Cuenta.Conteo MOP 3 Actuales
+Estrategia Apertura.Input.Previred.Periodo 10,Input LDS.Datos Cliente Existente.FlagTCAutenticacion
+Estrategia Apertura.Input.Previred.Periodo 11,Input LDS.Datos Cliente Existente.FlagAutoAutenticacion
+Estrategia Apertura.Input.Previred.Periodo 12,Input LDS.Datos Cliente Existente.FlagHipotecarioAutenticacion
+Estrategia Apertura.Input.Previred.Remuneracion 1,Auxiliar LDS.Cuenta.SumaPagosMensualesAutomotrizVigentes
+Estrategia Apertura.Input.Previred.Remuneracion 2,Auxiliar LDS.Cuenta.SumaSaldoActualTCVigentes
+Estrategia Apertura.Input.Previred.Remuneracion 3,Auxiliar LDS.Cuenta.SumaSaldoActualPersonalVigentes
+Estrategia Apertura.Input.Previred.Remuneracion 4,Auxiliar LDS.Cuenta.SumaSaldoActualAutomotrizVigentes
+Estrategia Apertura.Input.Previred.Remuneracion 6,Auxiliar LDS.Cuenta.SumaSaldoLineaCreditoVigentes
+Estrategia Apertura.Input.Previred.Remuneracion 7,Auxiliar LDS.Cuenta.SumatoriaSaldoActualconMOP2
+Estrategia Apertura.Input.Previred.Remuneracion 9,Auxiliar LDS.Cuenta.SumaSaldoActualTC
+Estrategia Apertura.Input.Previred.Remuneracion 10,Auxiliar LDS.Cuenta.SumaPagosMensualesComercialVigentes
+Estrategia Apertura.Input.Previred.Remuneracion 11,Auxiliar LDS.Cuenta.SumaLimiteCreditoTC
+Estrategia Apertura.Input.Previred.Remuneracion 12,Auxiliar LDS.Cuenta.SumaCreditoMaximoLineaCreditoVigentes
+Estrategia Apertura.Input.TransUnion.Antecedentes Buro.Boletin Laboral Monto Promedio,Auxiliar LDS.Cupo.PagosBuroMensuales
+Estrategia Apertura.Input.TransUnion.Antecedentes Buro.Boletin Laboral Monto Total,Auxiliar LDS.Cupo.CapacidadMaximaPago
+Estrategia Apertura.Input.TransUnion.Antecedentes Buro.Detalle1 Emisor Librador,Auxiliar LDS.ScoreConExpSinTC.GruposCalc
+Estrategia Apertura.Input.TransUnion.Antecedentes Buro.Detalle1 Fecha Protesto,Auxiliar LDS.Cuenta.FechaAperturaLineaCreditoVigentes
+Estrategia Apertura.Input.TransUnion.Antecedentes Buro.Detalle1 Fecha Vencimiento,Auxiliar LDS.Empleo.FechaContratacion
+Estrategia Apertura.Input.TransUnion.Antecedentes Buro.Detalle1 Localidad,Input LDS.Datos Cliente Existente.RFMNombre
+Estrategia Apertura.Input.TransUnion.Antecedentes Buro.Detalle1 Monto,Auxiliar LDS.Cupo.PorcentajePagosBuro
+Estrategia Apertura.Input.TransUnion.Antecedentes Buro.Detalle1 Monto Pesos,Input LDS.Datos Cliente Existente.EmpleadoNumEmpresa
+Estrategia Apertura.Input.TransUnion.Antecedentes Buro.Detalle1 Tipo Credito,Input LDS.Datos Cliente Existente.RFMApellidoPaterno
+Estrategia Apertura.Input.TransUnion.Antecedentes Buro.Detalle1 Tipo Documento,Input LDS.Datos Cliente Existente.RFMApellidoMaterno
+Estrategia Apertura.Input.TransUnion.Antecedentes Buro.Distr 6m Periodo Documentos,Resultados LDS.EvalProducto.CF.Filler1N6
+Estrategia Apertura.Input.TransUnion.Antecedentes Buro.Distr 6m Periodo Montos,Auxiliar LDS.ScoreConExpSinTC.ScoreCalc
+Estrategia Apertura.Input.TransUnion.Antecedentes Buro.Distr 12m24m Acumulado Documentos,Auxiliar LDS.Solicitud.Edad
+Estrategia Apertura.Input.TransUnion.Antecedentes Buro.Distr 12m24m Acumulado Montos,Auxiliar LDS.Cupo.IngresoMaximoPorRiesgoBajo
+Estrategia Apertura.Input.TransUnion.Antecedentes Buro.Distr 12m24m Periodo Documentos,Auxiliar LDS.Score.BCScore
+Estrategia Apertura.Input.TransUnion.Antecedentes Buro.Distr 24m Acumulado Documentos,Auxiliar LDS.Empleo.AniosAntiguedadLaboral
+Estrategia Apertura.Input.TransUnion.Antecedentes Buro.Distr 24m Acumulado Montos,Auxiliar LDS.Cupo.RentaUtilizada
+Estrategia Apertura.Input.TransUnion.Antecedentes Buro.Distr 24m Periodo Montos,Auxiliar LDS.Cupo.IngresosCalc
+Estrategia Apertura.Input.TransUnion.Antecedentes Buro.Total Documentos,Auxiliar LDS.Cuenta.ClaveObservacionCOVID
+Estrategia Apertura.Input.TransUnion.Comex.Exportaciones Anual Anterior,Input LDS.Datos Cliente Existente.RFMConTDC
+Estrategia Apertura.Input.TransUnion.Comex.Exportaciones USD Anterior,Input LDS.Datos Buro.ConexionConectado[2]
+Estrategia Apertura.Input.TransUnion.Comex.Importaciones Anual Actual,Auxiliar LDS.RFM.Match_RFM_Si
+Estrategia Apertura.Input.TransUnion.Comex.Importaciones Anual Anterior,Auxiliar LDS.Cupo.ClasifCupo
+Estrategia Apertura.Input.TransUnion.Comex.Importaciones Operaciones Anterior,Auxiliar LDS.Solicitud.Clasif_Modulos
+Estrategia Apertura.Input.TransUnion.Comex.Importaciones USD Anterior,Input LDS.Datos Solicitud.CanalOrigen
+Estrategia Apertura.Input.TransUnion.Control.Anotaciones Vigente Fecha Reciente,Auxiliar LDS.Empleo.FechaVerificacion
+Estrategia Apertura.Input.TransUnion.Control.Boletin Laboral Deudas,Auxiliar LDS.Cupo.PorcentajePagosMinimos
+Estrategia Apertura.Input.TransUnion.Control.Boletin Laboral Fecha Reciente,Input LDS.Datos Cliente Existente.FechadeIngresoEmpleoAnterior
+Estrategia Apertura.Input.TransUnion.Control.Defuncion,Input LDS.Datos Solicitud.CanalEvaluacion
+Estrategia Apertura.Input.TransUnion.Control.Estado Cedula,Input LDS.Datos Cliente Existente.ColoniaFraccionamiento
+Estrategia Apertura.Input.TransUnion.Control.Fecha CI,Auxiliar LDS.Empleo.FechaReportoEmpleo
+Estrategia Apertura.Input.TransUnion.Control.Fecha Defuncion,Auxiliar LDS.Cuenta.FechaAperturaComercialVigentes
+Estrategia Apertura.Input.TransUnion.Control.Nro Serie CI,Auxiliar LDS.Producto
+Estrategia Apertura.Input.TransUnion.Control.Quiebra Fecha Reciente,Input LDS.Datos Cliente Existente.FechadeSalidaEmpleoAnterior
+Estrategia Apertura.Input.TransUnion.Laborales.Direccion Comercial,Filler88X30
+Estrategia Apertura.Input.TransUnion.Laborales.Glosa,Resultados LDS.EvalProducto.Oferta.Tarjeta.Politicas.CategoriaDecisionTJ1
+Estrategia Apertura.Input.TransUnion.Laborales.Nro Direcciones Informadas,Auxiliar LDS.Resumen.NumeroConsultas
+Estrategia Apertura.Input.TransUnion.Particulares.Apellido Materno,Input LDS.Datos Cliente Existente.ApellidoMaternoSolicitud
+Estrategia Apertura.Input.TransUnion.Particulares.Apellido Paterno,Input LDS.Datos Cliente Existente.ApellidoPaternoSolicitud
+Estrategia Apertura.Input.TransUnion.Particulares.Codigo area 1,Auxiliar LDS.Cuenta.FlagTC_Banco
+Estrategia Apertura.Input.TransUnion.Particulares.Direccion,Input LDS.Datos Cliente Existente.DelegacionMunicipio
+Estrategia Apertura.Input.TransUnion.Particulares.Direccion Ciudad,Input LDS.Datos Cliente Existente.Estado
+Estrategia Apertura.Input.TransUnion.Particulares.Direccion Numero,Input LDS.Datos Cliente Existente.TCAprecio
+Estrategia Apertura.Input.TransUnion.Particulares.Direccion Region,Auxiliar LDS.Cuenta.MoraActualCirculoCredVarios
+Estrategia Apertura.Input.TransUnion.Particulares.Direccion Resto,Input LDS.Datos Cliente Existente.EmpleadoFlag
+Estrategia Apertura.Input.TransUnion.Particulares.Fecha Civil,Auxiliar LDS.Resumen.FechaAperturaCuentaMasAntigua
+Estrategia Apertura.Input.TransUnion.Particulares.Informacion Conyuge,Input LDS.Datos Cliente Existente.RFMGrupo
+Estrategia Apertura.Input.TransUnion.Particulares.NombreCompleto,Auxiliar LDS.RFM.Match_RFM
+Estrategia Apertura.Input.TransUnion.Particulares.Nombres,Input LDS.Datos Cliente Existente.NombreSolicitud
+Estrategia Apertura.Input.TransUnion.Score.Cantidad Telefonos Fijo,Input LDS.Datos Cliente Existente.RFMScoreTrans
+Estrategia Apertura.Input.TransUnion.Score.GSE,Auxiliar LDS.Cuenta.ScoreBuro_PEOR_MOP_CUENTAS_ABIERTAS
+Estrategia Apertura.Input.TransUnion.Score.Monto Total UF,Input LDS.Datos Cliente Existente.RFMPromCompraMensual
+Estrategia Apertura.Input.TransUnion.Score.Score,Auxiliar LDS.Score.FICOScore
+Estrategia Apertura.Rsltd.Calculo de Limite.Cupo Primario,Auxiliar LDS.Cupo.IngresoEstimado
+Estrategia Apertura.Rsltd.Calculo de Topes.Cupo Intermedio 1,Auxiliar LDS.Cupo.CupoCargaMensual
+Estrategia Apertura.Rsltd.Calculo de Topes.Cupo Intermedio 2,Auxiliar LDS.Cupo.CupoLineaPropuesta
+Estrategia Apertura.Rsltd.Calculo de Topes.Cupo Intermedio 5,Auxiliar LDS.Cupo.CupoMaximo
+Estrategia Apertura.Rsltd.Calculo de Topes.Cupo Recomendado,Resultados LDS.EvalProducto.Oferta.Tarjeta.LCFinal.MontoLCFTC1
+Estrategia Apertura.Rsltd.Evaluacion.Categoria,Resultados LDS.EvalProducto.Oferta.Tarjeta.Politicas.CategoriaDecisionTJ1
+Estrategia Apertura.Rsltd.Evaluacion.Descripcion,Resultados LDS.EvalProducto.Oferta.Tarjeta.Politicas.Descripcion TJ1
+Estrategia Apertura.Rsltd.Evaluacion.DTable[1],Resultados LDS.EvalProducto.Oferta.Tarjeta.Politicas.TablaDecision TJ1[1]
+Estrategia Apertura.Rsltd.Evaluacion.DTable[2],Resultados LDS.EvalProducto.Oferta.Tarjeta.Politicas.TablaDecision TJ1[2]
+Estrategia Apertura.Rsltd.Evaluacion.DTable[3],Resultados LDS.EvalProducto.Oferta.Tarjeta.Politicas.TablaDecision TJ1[3]
+Estrategia Apertura.Rsltd.Evaluacion.DTable[4],Resultados LDS.EvalProducto.Oferta.Tarjeta.Politicas.TablaDecision TJ1[4]
+Estrategia Apertura.Rsltd.Evaluacion.DTable[5],Resultados LDS.EvalProducto.Oferta.Tarjeta.Politicas.TablaDecision TJ1[5]
+Estrategia Apertura.Rsltd.Evaluacion.DTable[6],Resultados LDS.EvalProducto.Oferta.Tarjeta.Politicas.TablaDecision TJ1[6]
+Estrategia Apertura.Rsltd.Evaluacion.DTable[7],Resultados LDS.EvalProducto.Oferta.Tarjeta.Politicas.TablaDecision TJ1[7]
+Estrategia Apertura.Rsltd.Evaluacion.DTable[8],Resultados LDS.EvalProducto.Oferta.Tarjeta.Politicas.TablaDecision TJ1[8]
+Estrategia Apertura.Rsltd.Evaluacion.DTable[9],Resultados LDS.EvalProducto.Oferta.Tarjeta.Politicas.TablaDecision TJ1[9]
+Estrategia Apertura.Rsltd.Evaluacion.DTable[10],Resultados LDS.EvalProducto.Oferta.Tarjeta.Politicas.TablaDecision TJ1[10]
+Estrategia Apertura.Rsltd.Evaluacion.DTable[11],Resultados LDS.EvalProducto.Oferta.Tarjeta.Politicas.TablaDecision TJ1[11]
+Estrategia Apertura.Rsltd.Evaluacion.DTable[12],Resultados LDS.EvalProducto.Oferta.Tarjeta.Politicas.TablaDecision TJ1[12]
+Estrategia Apertura.Rsltd.Evaluacion.DTable[13],Resultados LDS.EvalProducto.Oferta.Tarjeta.Politicas.TablaDecision TJ1[13]
+Estrategia Apertura.Rsltd.Evaluacion.DTable[14],Resultados LDS.EvalProducto.Oferta.Tarjeta.Politicas.TablaDecision TJ1[14]
+Estrategia Apertura.Rsltd.Evaluacion.DTable[15],Resultados LDS.EvalProducto.Oferta.Tarjeta.Politicas.TablaDecision TJ1[15]
+Estrategia Apertura.Rsltd.Evaluacion.DTable[16],Resultados LDS.EvalProducto.Oferta.Tarjeta.Politicas.TablaDecision TJ1[16]
+Estrategia Apertura.Rsltd.Evaluacion.DTable[17],Resultados LDS.EvalProducto.Oferta.Tarjeta.Politicas.TablaDecision TJ1[17]
+Estrategia Apertura.Rsltd.Evaluacion.DTable[18],Resultados LDS.EvalProducto.Oferta.Tarjeta.Politicas.TablaDecision TJ1[18]
+Estrategia Apertura.Rsltd.Evaluacion.DTable[19],Resultados LDS.EvalProducto.Oferta.Tarjeta.Politicas.TablaDecision TJ1[19]
+Estrategia Apertura.Rsltd.Evaluacion.DTable[20],Resultados LDS.EvalProducto.Oferta.Tarjeta.Politicas.TablaDecision TJ1[20]
+Estrategia Apertura.Rsltd.Evaluacion.RCode[1],Resultados LDS.EvalProducto.Oferta.Tarjeta.Politicas.TablaCodigosRazon TJ1[1]
+Estrategia Apertura.Rsltd.Evaluacion.RCode[2],Resultados LDS.EvalProducto.Oferta.Tarjeta.Politicas.TablaCodigosRazon TJ1[2]
+Estrategia Apertura.Rsltd.Evaluacion.RCode[3],Resultados LDS.EvalProducto.Oferta.Tarjeta.Politicas.TablaCodigosRazon TJ1[3]
+Estrategia Apertura.Rsltd.Evaluacion.RCode[4],Resultados LDS.EvalProducto.Oferta.Tarjeta.Politicas.TablaCodigosRazon TJ1[4]
+Estrategia Apertura.Rsltd.Evaluacion.RCode[5],Resultados LDS.EvalProducto.Oferta.Tarjeta.Politicas.TablaCodigosRazon TJ1[5]
+Estrategia Apertura.Rsltd.Evaluacion.RCode[6],Resultados LDS.EvalProducto.Oferta.Tarjeta.Politicas.TablaCodigosRazon TJ1[6]
+Estrategia Apertura.Rsltd.Evaluacion.RCode[7],Resultados LDS.EvalProducto.Oferta.Tarjeta.Politicas.TablaCodigosRazon TJ1[7]
+Estrategia Apertura.Rsltd.Evaluacion.RCode[8],Resultados LDS.EvalProducto.Oferta.Tarjeta.Politicas.TablaCodigosRazon TJ1[8]
+Estrategia Apertura.Rsltd.Evaluacion.RCode[9],Resultados LDS.EvalProducto.Oferta.Tarjeta.Politicas.TablaCodigosRazon TJ1[9]
+Estrategia Apertura.Rsltd.Evaluacion.RCode[10],Resultados LDS.EvalProducto.Oferta.Tarjeta.Politicas.TablaCodigosRazon TJ1[10]
+Estrategia Apertura.Rsltd.Evaluacion.RCode[11],Resultados LDS.EvalProducto.Oferta.Tarjeta.Politicas.TablaCodigosRazon TJ1[11]
+Estrategia Apertura.Rsltd.Evaluacion.RCode[12],Resultados LDS.EvalProducto.Oferta.Tarjeta.Politicas.TablaCodigosRazon TJ1[12]
+Estrategia Apertura.Rsltd.Evaluacion.RCode[13],Resultados LDS.EvalProducto.Oferta.Tarjeta.Politicas.TablaCodigosRazon TJ1[13]
+Estrategia Apertura.Rsltd.Evaluacion.RCode[14],Resultados LDS.EvalProducto.Oferta.Tarjeta.Politicas.TablaCodigosRazon TJ1[14]
+Estrategia Apertura.Rsltd.Evaluacion.RCode[15],Resultados LDS.EvalProducto.Oferta.Tarjeta.Politicas.TablaCodigosRazon TJ1[15]
+Estrategia Apertura.Rsltd.Evaluacion.RCode[16],Resultados LDS.EvalProducto.Oferta.Tarjeta.Politicas.TablaCodigosRazon TJ1[16]
+Estrategia Apertura.Rsltd.Evaluacion.RCode[17],Resultados LDS.EvalProducto.Oferta.Tarjeta.Politicas.TablaCodigosRazon TJ1[17]
+Estrategia Apertura.Rsltd.Evaluacion.RCode[18],Resultados LDS.EvalProducto.Oferta.Tarjeta.Politicas.TablaCodigosRazon TJ1[18]
+Estrategia Apertura.Rsltd.Evaluacion.RCode[19],Resultados LDS.EvalProducto.Oferta.Tarjeta.Politicas.TablaCodigosRazon TJ1[19]
+Estrategia Apertura.Rsltd.Evaluacion.RCode[20],Resultados LDS.EvalProducto.Oferta.Tarjeta.Politicas.TablaCodigosRazon TJ1[20]
+Variables Auxiliares.Array auxiliar[1],Auxiliar LDS.Array_auxiliar[1]
+Variables Auxiliares.Array auxiliar[2],Auxiliar LDS.Array_auxiliar[2]
+Variables Auxiliares.Array auxiliar[3],Auxiliar LDS.Array_auxiliar[3]
+Variables Auxiliares.Array auxiliar[4],Auxiliar LDS.Array_auxiliar[4]
+Variables Auxiliares.Array auxiliar[5],Auxiliar LDS.Array_auxiliar[5]
+Variables Auxiliares.Array auxiliar[6],Auxiliar LDS.Array_auxiliar[6]
+Variables Auxiliares.Auxiliar Numerico,Auxiliar LDS.AuxiliarNumerico
+Variables Auxiliares.Calc_Anios Apertura TC Vigente,Auxiliar LDS.Cuenta.AniosAperturaTCVigente
+Variables Auxiliares.Calc_Antiguedad Buro U6M,Auxiliar LDS.Cuenta.AntiguedadBuroU6M
+Variables Auxiliares.Calc_Asignacion Cupo,Auxiliar LDS.Cupo.AsignacionCupo
+Variables Auxiliares.Calc_Anios de Antiguedad Laboral,Auxiliar LDS.Empleo.AniosAntiguedadLaboral
+Variables Auxiliares.Calc_Capacidad Maxima de Pago,Auxiliar LDS.Cupo.CapacidadMaximaPago
+Variables Auxiliares.Calc_Capacidad Menor a Cupo Minimo - IngresoEstimadoBajo,Auxiliar LDS.Cupo.Capacidad Menor a Cupo Minimo - IngresoEstimadoBajo
+Variables Auxiliares.Calc_Clasif para Cupo,Auxiliar LDS.Cupo.ClasifCupo
+Variables Auxiliares.Calc_CP Con modulos,Auxiliar LDS.Solicitud.CP_ConModulos
+Variables Auxiliares.Calc_CreditosOK,Auxiliar LDS.Cuenta.CreditosOK
+Variables Auxiliares.Calc_Cupo Carga mensual,Auxiliar LDS.Cupo.CupoCargaMensual
+Variables Auxiliares.Calc_Cupo Entry Level,Auxiliar LDS.Cupo.CupoEntryLevel
+Variables Auxiliares.Calc_Cupo Linea Propuesta,Auxiliar LDS.Cupo.CupoLineaPropuesta
+Variables Auxiliares.Calc_Cupo Maximo,Auxiliar LDS.Cupo.CupoMaximo
+Variables Auxiliares.Calc_Cupo Maximo2,Auxiliar LDS.Cupo.CupoMaximo2
+Variables Auxiliares.Calc_Cupo Minimo,Auxiliar LDS.Cupo.CupoMinimo
+Variables Auxiliares.Calc_Cupo PFAE,Auxiliar LDS.Cupo.CupoPFAE
+Variables Auxiliares.Calc_Cupo por Rescate,Auxiliar LDS.Cupo.CupoPorRescate
+Variables Auxiliares.Calc_Cupo por Rescates,Auxiliar LDS.Cupo.CupoPorRescates
+Variables Auxiliares.Calc_Edad,Auxiliar LDS.Solicitud.Edad
+Variables Auxiliares.Calc_Edad en Meses,Auxiliar LDS.Solicitud.EdadMeses
+Variables Auxiliares.Calc_Fecha Ingreso Laboral,Auxiliar LDS.Empleo.FechaIngresoLaboral
+Variables Auxiliares.Calc_Flag Entry Level,Auxiliar LDS.Cupo.FlagEntryLevel
+Variables Auxiliares.Calc_Flag Rescate Bines Premier,Auxiliar LDS.Cupo.FlagRescate_BinesPremier
+Variables Auxiliares.Calc_Flag Rescate BO 6009,Auxiliar LDS.Cupo.FlagRescate_BO6009
+Variables Auxiliares.Calc_Flag Rescate BO 6010,Auxiliar LDS.Cupo.FlagRescate_BO6010
+Variables Auxiliares.Calc_Flag Rescate EL 6071 MC,Auxiliar LDS.Cupo.FlagRescate_EL6071MC
+Variables Auxiliares.Calc_Flag Rescate Score Int,Auxiliar LDS.Cupo.FlagRescate_ScoreInt
+Variables Auxiliares.Calc_Flag Rescate Score Int Ant Laboral,Auxiliar LDS.Cupo.FlagRescate_ScoreInt_AntLaboral
+Variables Auxiliares.Calc_Flag Rescate Score Int CP,Auxiliar LDS.Cupo.FlagRescate_ScoreInt_CP
+Variables Auxiliares.Calc_Flag Rescate Score Int Edad,Auxiliar LDS.Cupo.FlagRescate_ScoreIntEdad
+Variables Auxiliares.Calc_Grupo RFM,Auxiliar LDS.RFM.GrupoRFM
+Variables Auxiliares.Calc_Ingreso Estimado,Auxiliar LDS.Cupo.IngresoEstimado
+Variables Auxiliares.Calc_Ingreso Maximo por Riesgo Bajo,Auxiliar LDS.Cupo.IngresoMaximoPorRiesgoBajo
+Variables Auxiliares.Calc_Ingresos,Auxiliar LDS.Cupo.IngresosCalc
+Variables Auxiliares.Calc_Match RFM,Auxiliar LDS.RFM.Match_RFM
+Variables Auxiliares.Calc_Match RFM Duda,Auxiliar LDS.RFM.Match_RFM_Duda
+Variables Auxiliares.Calc_Match RFM No,Auxiliar LDS.RFM.Match_RFM_No
+Variables Auxiliares.Calc_Match RFM Si,Auxiliar LDS.RFM.Match_RFM_Si
+Variables Auxiliares.Calc_Match Sin Info,Auxiliar LDS.RFM.Match_Sin_Info
+Variables Auxiliares.Calc_Meses Apertura Credito Automotriz Vigente,Auxiliar LDS.Cuenta.MesesAperturaCreditoAutomotrizVigente
+Variables Auxiliares.Calc_Meses Apertura Credito Comercial Vigente,Auxiliar LDS.Cuenta.MesesAperturaCreditoComercialVigente
+Variables Auxiliares.Calc_Meses Apertura Credito Hipotecario,Auxiliar LDS.Cuenta.MesesAperturaCreditoHipotecario
+Variables Auxiliares.Calc_Meses Apertura Credito Personal Vigente,Auxiliar LDS.Cuenta.MesesAperturaCreditoPersonalVigente
+Variables Auxiliares.Calc_Meses Apertura Linea Credito Vigente,Auxiliar LDS.Cuenta.MesesAperturaLineaCreditoVigente
+Variables Auxiliares.Calc_Meses Apertura TC Vigente,Auxiliar LDS.Cuenta.MesesAperturaTCVigente
+Variables Auxiliares.Calc_Meses Continuidad Laboral,Auxiliar LDS.Empleo.MesesContinuidadLaboral
+Variables Auxiliares.Calc_Meses de Antiguedad Laboral,Auxiliar LDS.Empleo.MesesAntiguedadLaboral
+Variables Auxiliares.Calc_Meses de Antiguedad Laboral Empleo Anterior,Auxiliar LDS.Empleo.MesesAntiguedadLaboralEmpleoAnt
+Variables Auxiliares.Calc_Meses sin Trabajar,Auxiliar LDS.Empleo.MesesSinTrabajar
+Variables Auxiliares.Calc_Modulos Prueba,Auxiliar LDS.Solicitud.ModulosPrueba
+Variables Auxiliares.Calc_Nivel de Riesgo,Auxiliar LDS.Cupo.NivelRiesgo
+Variables Auxiliares.Calc_Nivel de Riesgo Emp,Auxiliar LDS.Cupo.NivelRiesgoEmp
+Variables Auxiliares.Calc_Pagos Buro Mensuales,Auxiliar LDS.Cupo.PagosBuroMensuales
+Variables Auxiliares.Calc_Producto,Auxiliar LDS.Producto
+Variables Auxiliares.Calc_Renta Utilizada,Auxiliar LDS.Cupo.RentaUtilizada
+Variables Auxiliares.Calc_Rescate Entry Level,Auxiliar LDS.Cupo.RescateEntryLevel
+Variables Auxiliares.Calc_Rescate PreAprob 2,Auxiliar LDS.Cupo.RescatePreAprob2
+Variables Auxiliares.Calc_Riesgo Rescate Score Int,Auxiliar LDS.Cupo.RiesgoRescate_ScoreInt
+Variables Auxiliares.Calc_Riesgo Sucursal,Auxiliar LDS.Solicitud.RiesgoSucursal
+Variables Auxiliares.Calc_Salario Mensual,Auxiliar LDS.Empleo.SalarioMensual
+Variables Auxiliares.Calc_Score Interno,Auxiliar LDS.Score.ScoreInterno
+Variables Auxiliares.Calc_Sodimac_Black_NoBanc_sin_exp,Auxiliar LDS.Solicitud.SodimacBlack NoBanc SinExp
+Variables Auxiliares.Calc_Sodimac_Categoria_RFM,Auxiliar LDS.Solicitud.SodimacCategoriaRFM
+Variables Auxiliares.Calc_Tipo Empleado,Auxiliar LDS.Solicitud.TipoEmpleado
+Variables Auxiliares.Input_Base Salarial,Auxiliar LDS.Empleo.BaseSalarial
+Variables Auxiliares.Input_BC Score,Auxiliar LDS.Score.BCScore
+Variables Auxiliares.Input_Clasif Modulos,Auxiliar LDS.Solicitud.Clasif_Modulos
+Variables Auxiliares.Input_Clave Monetaria Prestamos,Auxiliar LDS.Cuenta.ClaveMonetariaPrestamos
+Variables Auxiliares.Input_Clave Observacion COVID,Auxiliar LDS.Cuenta.ClaveObservacionCOVID
+Variables Auxiliares.Input_Conteo Cuentas Abiertas,Auxiliar LDS.Cuenta.ConteoCuentasAbiertas
+Variables Auxiliares.Input_Conteo MOP 3 Actuales,Auxiliar LDS.Cuenta.Conteo MOP 3 Actuales
+Variables Auxiliares.Input_Conteo MOP 3 U12M,Auxiliar LDS.Cuenta.Conteo MOP 3 U12M
+Variables Auxiliares.Input_Conteo MOP 4 U12M,Auxiliar LDS.Cuenta.Conteo MOP 4 U12M
+Variables Auxiliares.Input_Fecha Apertura Automotriz Vigentes,Auxiliar LDS.Cuenta.FechaAperturaAutomotrizVigentes
+Variables Auxiliares.Input_Fecha Apertura Comercial Vigentes,Auxiliar LDS.Cuenta.FechaAperturaComercialVigentes
+Variables Auxiliares.Input_Fecha Apertura Hipotecario Vigentes,Auxiliar LDS.Cuenta.FechaAperturaHipotecarioVigentes
+Variables Auxiliares.Input_Fecha Apertura Linea Credito Vigentes,Auxiliar LDS.Cuenta.FechaAperturaLineaCreditoVigentes
+Variables Auxiliares.Input_Fecha Apertura Personales Vigentes,Auxiliar LDS.Cuenta.FechaAperturaPersonalesVigentes
+Variables Auxiliares.Input_Fecha Apertura TC Vigentes Activa,Auxiliar LDS.Cuenta.FechaAperturaTCVigentesActiva
+Variables Auxiliares.Input_Fecha Contratacion,Auxiliar LDS.Empleo.FechaContratacion
+Variables Auxiliares.Input_FICO Score,Auxiliar LDS.Score.FICOScore
+Variables Auxiliares.Input_Flag TC Banco,Auxiliar LDS.Cuenta.FlagTC_Banco
+Variables Auxiliares.Input_Grupo RFM,Auxiliar LDS.RFM.GrupoRFM
+Variables Auxiliares.Input_Limite Credito Maximo TC Vigentes,Auxiliar LDS.Cuenta.LimiteCreditoMaximoTCVigentes
+Variables Auxiliares.Input_MOP 5 Historico,Auxiliar LDS.Cuenta.MOP 5 Historico
+Variables Auxiliares.Input_MOP Actual,Auxiliar LDS.Cuenta.MOP_Actual
+Variables Auxiliares.Input_MOP mayor a 2 U12M,Auxiliar LDS.Cuenta.MOP mayor a 2 U12M
+Variables Auxiliares.Input_Peor MOP Historico U6M - Moras,Auxiliar LDS.Cuenta.Peor MOP Historico U6M - Moras
+Variables Auxiliares.Input_Salario,Auxiliar LDS.Empleo.Salario
+Variables Auxiliares.Input_Sucursal City,Auxiliar LDS.Solicitud.SucursalCity
+Variables Auxiliares.Input_Sucursal Entry Level,Auxiliar LDS.Solicitud.SucursalEntryLevel
+Variables Auxiliares.Input_Sucursal Sodimac,Auxiliar LDS.Solicitud.SucursalSodimac
+Variables Auxiliares.Input_Sucursal Sodimac 2,Auxiliar LDS.Solicitud.SucursalSodimac 2
+Variables Auxiliares.Input_Suma Credito Maximo Linea Credito Vigentes,Auxiliar LDS.Cuenta.SumaCreditoMaximoLineaCreditoVigentes
+Variables Auxiliares.Input_Suma Limite Credito TC Vigentes,Auxiliar LDS.Cuenta.SumaLimiteCreditoTCVigentes
+Variables Auxiliares.Input_Suma Pagos Mensuales Automotriz Vigentes,Auxiliar LDS.Cuenta.SumaPagosMensualesAutomotrizVigentes
+Variables Auxiliares.Input_Suma Pagos Mensuales Comercial Vigentes,Auxiliar LDS.Cuenta.SumaPagosMensualesComercialVigentes
+Variables Auxiliares.Input_Suma Pagos Mensuales Nomina Vigentes,Auxiliar LDS.Cuenta.SumaPagosMensualesNominaVigentes
+Variables Auxiliares.Input_Suma Pagos Mensuales Personal Vigentes,Auxiliar LDS.Cuenta.SumaPagosMensualesPersonalVigentes
+Variables Auxiliares.Input_Suma Saldo Actual - TC,Auxiliar LDS.Cuenta.SumaSaldoActualTC
+Variables Auxiliares.Input_Suma Saldo Actual Automotriz Vigentes,Auxiliar LDS.Cuenta.SumaSaldoActualAutomotrizVigentes
+Variables Auxiliares.Input_Suma Saldo Actual Comercial Vigentes,Auxiliar LDS.Cuenta.SumaSaldoActualComercialVigentes
+Variables Auxiliares.Input_Suma Saldo Actual Nomina Vigentes,Auxiliar LDS.Cuenta.SumaSaldoActualNominaVigentes
+Variables Auxiliares.Input_Suma Saldo Actual Personal Vigentes,Auxiliar LDS.Cuenta.SumaSaldoActualPersonalVigentes
+Variables Auxiliares.Input_Suma Saldo Actual TC Vigentes,Auxiliar LDS.Cuenta.SumaSaldoActualTCVigentes
+Variables Auxiliares.Input_Suma Saldo Linea Credito Vigentes,Auxiliar LDS.Cuenta.SumaSaldoLineaCreditoVigentes
+Variables Auxiliares.Input_Sumatoria Saldo Actual con MOP 2,Auxiliar LDS.Cuenta.SumatoriaSaldoActualconMOP2
+Variables Auxiliares.Porcentaje Pagos Buro,Auxiliar LDS.Cupo.PorcentajePagosBuro
+Variables Auxiliares.Porcentaje Pagos Minimos,Auxiliar LDS.Cupo.PorcentajePagosMinimos
+Variables Auxiliares.ScoreBuro_CONC_SIS,Auxiliar LDS.Cuenta.ScoreBuro_CONC_SIS
+Variables Auxiliares.ScoreBuro_DISPU_SIS,Auxiliar LDS.Cuenta.ScoreBuro_DISPU_SIS
+Variables Auxiliares.ScoreBuro_PEOR_MOP_24M_CTA_CTE,Auxiliar LDS.Cuenta.ScoreBuro_PEOR_MOP_24M_CTA_CTE
+Variables Auxiliares.ScoreBuro_PEOR_MOP_24M_MORAS,Auxiliar LDS.Cuenta.ScoreBuro_PEOR_MOP_24M_MORAS
+Variables Auxiliares.ScoreBuro_PEOR_MOP_ACTUAL_MORAS,Auxiliar LDS.Cuenta.ScoreBuro_PEOR_MOP_ACTUAL_MORAS
+Variables Auxiliares.ScoreBuro_PEOR_MOP_CUENTAS_ABIERTAS,Auxiliar LDS.Cuenta.ScoreBuro_PEOR_MOP_CUENTAS_ABIERTAS
+Variables Auxiliares.ScoreConExpConTC_Ant_TDC,Auxiliar LDS.ScoreConExpConTC.Ant_TDC
+Variables Auxiliares.ScoreConExpConTC_AntBuro,Auxiliar LDS.ScoreConExpConTC.AntBuro
+Variables Auxiliares.ScoreConExpConTC_ConteoCuentasAbiertas,Auxiliar LDS.ScoreConExpConTC.ConteoCuentasAbiertas
+Variables Auxiliares.ScoreConExpConTC_Edad,Auxiliar LDS.ScoreConExpConTC.Edad
+Variables Auxiliares.ScoreConExpConTC_Flag_TDC,Auxiliar LDS.ScoreConExpConTC.Flag_TDC
+Variables Auxiliares.ScoreConExpConTC_FlagNomPP,Auxiliar LDS.ScoreConExpConTC.FlagNomPP
+Variables Auxiliares.ScoreConExpConTC_Genero,Auxiliar LDS.ScoreConExpConTC.Genero
+Variables Auxiliares.ScoreConExpConTC_GrupoAnt_TDC,Auxiliar LDS.ScoreConExpConTC.GrupoAnt_TDC
+Variables Auxiliares.ScoreConExpConTC_GrupoAntBuro,Auxiliar LDS.ScoreConExpConTC.GrupoAntBuro
+Variables Auxiliares.ScoreConExpConTC_GrupoConteoCuentasAbiertas,Auxiliar LDS.ScoreConExpConTC.GrupoConteoCuentasAbiertas
+Variables Auxiliares.ScoreConExpConTC_GrupoEdad,Auxiliar LDS.ScoreConExpConTC.GrupoEdad
+Variables Auxiliares.ScoreConExpConTC_GrupoFlag_TDC,Auxiliar LDS.ScoreConExpConTC.GrupoFlag_TDC
+Variables Auxiliares.ScoreConExpConTC_GrupoFlagNomPP,Auxiliar LDS.ScoreConExpConTC.GrupoFlagNomPP
+Variables Auxiliares.ScoreConExpConTC_GrupoGenero,Auxiliar LDS.ScoreConExpConTC.GrupoGenero
+Variables Auxiliares.ScoreConExpConTC_GrupoMatchRFM,Auxiliar LDS.ScoreConExpConTC.GrupoMatchRFM
+Variables Auxiliares.ScoreConExpConTC_GrupoNumConsultas,Auxiliar LDS.ScoreConExpConTC.GrupoNumConsultas
+Variables Auxiliares.ScoreConExpConTC_GruposCalc,Auxiliar LDS.ScoreConExpConTC.GruposCalc
+Variables Auxiliares.ScoreConExpConTC_GrupoSucursalFormato,Auxiliar LDS.ScoreConExpConTC.GrupoSucursalFormato
+Variables Auxiliares.ScoreConExpConTC_GrupoSumLimCredTC,Auxiliar LDS.ScoreConExpConTC.GrupoSumLimCredTC
+Variables Auxiliares.ScoreConExpConTC_GrupoUT_TDC,Auxiliar LDS.ScoreConExpConTC.GrupoUT_TDC
+Variables Auxiliares.ScoreConExpConTC_MatchRFM,Auxiliar LDS.ScoreConExpConTC.MatchRFM
+Variables Auxiliares.ScoreConExpConTC_NumConsultas,Auxiliar LDS.ScoreConExpConTC.NumConsultas
+Variables Auxiliares.ScoreConExpConTC_PuntosAnt_TDC,Auxiliar LDS.ScoreConExpConTC.PuntosAnt_TDC
+Variables Auxiliares.ScoreConExpConTC_PuntosAntBuro,Auxiliar LDS.ScoreConExpConTC.PuntosAntBuro
+Variables Auxiliares.ScoreConExpConTC_PuntosConteoCuentasAbiertas,Auxiliar LDS.ScoreConExpConTC.PuntosConteoCuentasAbiertas
+Variables Auxiliares.ScoreConExpConTC_PuntosEdad,Auxiliar LDS.ScoreConExpConTC.PuntosEdad
+Variables Auxiliares.ScoreConExpConTC_PuntosFlag_TDC,Auxiliar LDS.ScoreConExpConTC.PuntosFlag_TDC
+Variables Auxiliares.ScoreConExpConTC_PuntosFlagNomPP,Auxiliar LDS.ScoreConExpConTC.PuntosFlagNomPP
+Variables Auxiliares.ScoreConExpConTC_PuntosGenero,Auxiliar LDS.ScoreConExpConTC.PuntosGenero
+Variables Auxiliares.ScoreConExpConTC_PuntosMatchRFM,Auxiliar LDS.ScoreConExpConTC.PuntosMatchRFM
+Variables Auxiliares.ScoreConExpConTC_PuntosNumConsultas,Auxiliar LDS.ScoreConExpConTC.PuntosNumConsultas
+Variables Auxiliares.ScoreConExpConTC_PuntosSucursalFormato,Auxiliar LDS.ScoreConExpConTC.PuntosSucursalFormato
+Variables Auxiliares.ScoreConExpConTC_PuntosSumLimCredTC,Auxiliar LDS.ScoreConExpConTC.PuntosSumLimCredTC
+Variables Auxiliares.ScoreConExpConTC_PuntosUT_TDC,Auxiliar LDS.ScoreConExpConTC.PuntosUT_TDC
+Variables Auxiliares.ScoreConExpConTC_ScoreCalc,Auxiliar LDS.ScoreConExpConTC.ScoreCalc
+Variables Auxiliares.ScoreConExpConTC_SucursalFormato,Auxiliar LDS.ScoreConExpConTC.SucursalFormato
+Variables Auxiliares.ScoreConExpConTC_SumLimCredTC,Auxiliar LDS.ScoreConExpConTC.SumLimCredTC
+Variables Auxiliares.ScoreConExpConTC_UT_TDC,Auxiliar LDS.ScoreConExpConTC.UT_TDC
+Variables Auxiliares.ScoreConExpSinTC_AntBuro,Auxiliar LDS.ScoreConExpSinTC.AntBuro
+Variables Auxiliares.ScoreConExpSinTC_AntCredPers,Auxiliar LDS.ScoreConExpSinTC.AntCredPers
+Variables Auxiliares.ScoreConExpSinTC_ConTDC,Auxiliar LDS.ScoreConExpSinTC.ConTDC
+Variables Auxiliares.ScoreConExpSinTC_Edad,Auxiliar LDS.ScoreConExpSinTC.Edad
+Variables Auxiliares.ScoreConExpSinTC_GrupoAntBuro,Auxiliar LDS.ScoreConExpSinTC.GrupoAntBuro
+Variables Auxiliares.ScoreConExpSinTC_GrupoAntCredPers,Auxiliar LDS.ScoreConExpSinTC.GrupoAntCredPers
+Variables Auxiliares.ScoreConExpSinTC_GrupoConTDC,Auxiliar LDS.ScoreConExpSinTC.GrupoConTDC
+Variables Auxiliares.ScoreConExpSinTC_GrupoEdad,Auxiliar LDS.ScoreConExpSinTC.GrupoEdad
+Variables Auxiliares.ScoreConExpSinTC_GrupoMoraActCreditosCC,Auxiliar LDS.ScoreConExpSinTC.GrupoMoraActCreditosCC
+Variables Auxiliares.ScoreConExpSinTC_GrupoNumConsultas,Auxiliar LDS.ScoreConExpSinTC.GrupoNumConsultas
+Variables Auxiliares.ScoreConExpSinTC_GrupoPeorMOPHist,Auxiliar LDS.ScoreConExpSinTC.GrupoPeorMOPHist
+Variables Auxiliares.ScoreConExpSinTC_GruposCalc,Auxiliar LDS.ScoreConExpSinTC.GruposCalc
+Variables Auxiliares.ScoreConExpSinTC_GrupoUT_Todos,Auxiliar LDS.ScoreConExpSinTC.GrupoUT_Todos
+Variables Auxiliares.ScoreConExpSinTC_MoraActCreditosCC,Auxiliar LDS.ScoreConExpSinTC.MoraActCreditosCC
+Variables Auxiliares.ScoreConExpSinTC_NumConsultas,Auxiliar LDS.ScoreConExpSinTC.NumConsultas
+Variables Auxiliares.ScoreConExpSinTC_PeorMOPHist,Auxiliar LDS.ScoreConExpSinTC.PeorMOPHist
+Variables Auxiliares.ScoreConExpSinTC_PuntosAntBuro,Auxiliar LDS.ScoreConExpSinTC.PuntosAntBuro
+Variables Auxiliares.ScoreConExpSinTC_PuntosAntCredPersonal,Auxiliar LDS.ScoreConExpSinTC.PuntosAntCredPersonal
+Variables Auxiliares.ScoreConExpSinTC_PuntosConTDC,Auxiliar LDS.ScoreConExpSinTC.PuntosConTDC
+Variables Auxiliares.ScoreConExpSinTC_PuntosEdad,Auxiliar LDS.ScoreConExpSinTC.PuntosEdad
+Variables Auxiliares.ScoreConExpSinTC_PuntosMoraActCreditosCC,Auxiliar LDS.ScoreConExpSinTC.PuntosMoraActCreditosCC
+Variables Auxiliares.ScoreConExpSinTC_PuntosNumConsultas,Auxiliar LDS.ScoreConExpSinTC.PuntosNumConsultas
+Variables Auxiliares.ScoreConExpSinTC_PuntosPeorMOPHist,Auxiliar LDS.ScoreConExpSinTC.PuntosPeorMOPHist
+Variables Auxiliares.ScoreConExpSinTC_PuntosUT_Todos,Auxiliar LDS.ScoreConExpSinTC.PuntosUT_Todos
+Variables Auxiliares.ScoreConExpSinTC_ScoreCalc,Auxiliar LDS.ScoreConExpSinTC.ScoreCalc
+Variables Auxiliares.ScoreConExpSinTC_UT_Todos,Auxiliar LDS.ScoreConExpSinTC.UT_Todos
+Variables Auxiliares.VAR_DECIMAL_15_2_DEFAULT,Auxiliar LDS.Default.VAR_DECIMAL_15_2_DEFAULT
+Variables Auxiliares.VAR_FECHA_DEFAULT,Auxiliar LDS.Default.VAR_FECHA_DEFAULT
+Variables Auxiliares.VAR_INTEGER_4_DEFAULT,Auxiliar LDS.Default.VAR_INTEGER_4_DEFAULT

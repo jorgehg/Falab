@@ -1,0 +1,34 @@
+IF 'Auxiliar LDS.Cupo.ClasifCupo' = "2" THEN
+        //Universo 5
+        'Resultados LDS.EvalProducto.Oferta.Tarjeta.Politicas.TablaDecision TJ1'[1] = "Revision Manual     Revision Manual     6083      "
+        'Resultados LDS.EvalProducto.Oferta.Tarjeta.Politicas.TablaCodigosRazon TJ1'[1] = "6083"
+        'Auxiliar LDS.Cupo.UniversoPF' = "Universo 5 - Palenca"
+    ELSE
+        IF 'Auxiliar LDS.Score.BCScore' <= 639 THEN
+            //Universo 1
+            'Resultados LDS.EvalProducto.Oferta.Tarjeta.Politicas.TablaDecision TJ1'[1] = "Revision Manual     Revision Manual     6079      "
+            'Resultados LDS.EvalProducto.Oferta.Tarjeta.Politicas.TablaCodigosRazon TJ1'[1] = "6079"
+            'Auxiliar LDS.Cupo.UniversoPF' = "Universo 1 - Palenca"
+        ELSE
+            IF 'Auxiliar LDS.Solicitud.Edad' >= 48 THEN
+                //Universo 4
+                'Resultados LDS.EvalProducto.Oferta.Tarjeta.Politicas.TablaDecision TJ1'[1] = "Revision Manual     Revision Manual     6082      "
+                'Resultados LDS.EvalProducto.Oferta.Tarjeta.Politicas.TablaCodigosRazon TJ1'[1] = "6082"
+                'Auxiliar LDS.Cupo.UniversoPF' = "Universo 4 - Palenca"
+            ELSE
+                IF 'Auxiliar LDS.Solicitud.Edad' >= 40 THEN
+                    //Universo 3
+                    'Resultados LDS.EvalProducto.Oferta.Tarjeta.Politicas.TablaDecision TJ1'[1] = "Revision Manual     Revision Manual     6081      "
+                    'Resultados LDS.EvalProducto.Oferta.Tarjeta.Politicas.TablaCodigosRazon TJ1'[1] = "6081"
+                    'Auxiliar LDS.Cupo.UniversoPF' = "Universo 3 - Palenca"
+                ELSE
+                    //Universo 2
+                    'Resultados LDS.EvalProducto.Oferta.Tarjeta.Politicas.TablaDecision TJ1'[1] = "Revision Manual     Revision Manual     6080      "
+                    'Resultados LDS.EvalProducto.Oferta.Tarjeta.Politicas.TablaCodigosRazon TJ1'[1] = "6080"
+                    'Auxiliar LDS.Cupo.UniversoPF' = "Universo 2 - Palenca" 
+                    ENDIF
+                ENDIF
+            ENDIF
+        ENDIF
+
+ENDIF
