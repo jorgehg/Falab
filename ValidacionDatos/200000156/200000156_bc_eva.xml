@@ -1,0 +1,7 @@
+<Response>
+	<return xmlns="http://bean.consulta.ws.bc.com/">
+		<Personas xmlns="http://bean.consulta.ws.bc.com/"/>
+	</return>
+	<idSolicitud>200000156</idSolicitud>
+	<tipoSic>C</tipoSic>
+</Response>

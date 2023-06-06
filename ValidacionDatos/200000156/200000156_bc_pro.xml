@@ -1,0 +1,434 @@
+<Response>
+	<return xmlns="http://bean.consulta.ws.bc.com/">
+		<Personas xmlns="http://bean.consulta.ws.bc.com/">
+			<Persona xmlns="http://bean.consulta.ws.bc.com/">
+				<Encabezado xmlns="http://bean.consulta.ws.bc.com/">
+					<NumeroReferenciaOperador>1234567890123456789012345</NumeroReferenciaOperador>
+					<ClavePais>MX</ClavePais>
+					<IdentificadorBuro>1010</IdentificadorBuro>
+					<ClaveOtorgante>FF76241001</ClaveOtorgante>
+					<ClaveRetornoConsumidorPrincipal>1</ClaveRetornoConsumidorPrincipal>
+					<ClaveRetornoConsumidorSecundario>0</ClaveRetornoConsumidorSecundario>
+					<NumeroControlConsulta>2909296345</NumeroControlConsulta>
+				</Encabezado>
+				<Nombre xmlns="http://bean.consulta.ws.bc.com/">
+					<ApellidoPaterno>ARMIJO</ApellidoPaterno>
+					<ApellidoMaterno>MIRAMONTES</ApellidoMaterno>
+					<PrimerNombre>CLAUDIA</PrimerNombre>
+					<SegundoNombre>CELINA</SegundoNombre>
+					<FechaNacimiento>21101982</FechaNacimiento>
+					<RFC>AIMC821021T57</RFC>
+					<Prefijo>SRA</Prefijo>
+					<Nacionalidad>MX</Nacionalidad>
+					<Residencia>1</Residencia>
+					<EstadoCivil>M</EstadoCivil>
+					<Sexo>F</Sexo>
+					<NumeroRegistroElectoral>1293089757518</NumeroRegistroElectoral>
+					<ClaveImpuestosOtroPais>AIMC821021MJCRRL07</ClaveImpuestosOtroPais>
+					<ClaveOtroPais>MX</ClaveOtroPais>
+					<NumeroDependientes>01</NumeroDependientes>
+				</Nombre>
+				<Domicilios xmlns="http://bean.consulta.ws.bc.com/">
+					<Domicilio xmlns="http://bean.consulta.ws.bc.com/">
+						<Direccion1>CIRUELW 12702</Direccion1>
+						<ColoniaPoblacion>LOMAS DE SAN PEDRO</ColoniaPoblacion>
+						<DelegacionMunicipio>TIJUANA</DelegacionMunicipio>
+						<Ciudad>TIJUANA</Ciudad>
+						<Estado>BCN</Estado>
+						<CP>22263</CP>
+						<CodPais>MX</CodPais>
+						<FechaReporteDireccion>30042023</FechaReporteDireccion>
+					</Domicilio>
+					<Domicilio xmlns="http://bean.consulta.ws.bc.com/">
+						<Direccion1>PRIV DURAZNO 12721 5</Direccion1>
+						<DelegacionMunicipio>TIJUANA</DelegacionMunicipio>
+						<Estado>BCN</Estado>
+						<CP>22000</CP>
+						<CodPais>MX</CodPais>
+						<FechaReporteDireccion>19122022</FechaReporteDireccion>
+					</Domicilio>
+					<Domicilio xmlns="http://bean.consulta.ws.bc.com/">
+						<Direccion1>DEL HUERTO PRIV CIRUELA 10702 29</Direccion1>
+						<ColoniaPoblacion>LOMAS DE SAN PEDRO</ColoniaPoblacion>
+						<DelegacionMunicipio>TIJUANA</DelegacionMunicipio>
+						<Estado>BCN</Estado>
+						<CP>22263</CP>
+						<CodPais>MX</CodPais>
+						<FechaReporteDireccion>04042018</FechaReporteDireccion>
+					</Domicilio>
+					<Domicilio xmlns="http://bean.consulta.ws.bc.com/">
+						<Direccion1>LOMA NTE 2394</Direccion1>
+						<ColoniaPoblacion>NINOS HEROES</ColoniaPoblacion>
+						<DelegacionMunicipio>TLAQUEPAQUE</DelegacionMunicipio>
+						<Estado>JAL</Estado>
+						<CP>45500</CP>
+						<CodPais>MX</CodPais>
+						<FechaReporteDireccion>27022018</FechaReporteDireccion>
+					</Domicilio>
+				</Domicilios>
+				<Empleos xmlns="http://bean.consulta.ws.bc.com/">
+					<Empleo xmlns="http://bean.consulta.ws.bc.com/">
+						<NombreEmpresa>SAMSUNG MEXICANA SA DE CV</NombreEmpresa>
+						<Direccion1>BLVD LOS OLIVOS 11110</Direccion1>
+						<ColoniaPoblacion>EL FLORIDO</ColoniaPoblacion>
+						<DelegacionMunicipio>TIJUANA</DelegacionMunicipio>
+						<Ciudad>TIJUANA</Ciudad>
+						<Estado>BCN</Estado>
+						<CP>22244</CP>
+						<NumeroTelefono>6276000</NumeroTelefono>
+						<Fax>6646276022</Fax>
+						<Cargo>OPERADOR</Cargo>
+						<FechaContratacion>10032016</FechaContratacion>
+						<ClaveMonedaSalario>MX</ClaveMonedaSalario>
+						<Salario>7050</Salario>
+						<BaseSalarial>M</BaseSalarial>
+						<NumeroEmpleado>16503288</NumeroEmpleado>
+						<CodPais>MX</CodPais>
+						<FechaReportoEmpleo>09032018</FechaReportoEmpleo>
+					</Empleo>
+					<Empleo xmlns="http://bean.consulta.ws.bc.com/">
+						<NombreEmpresa>ABARROTES LUISITO</NombreEmpresa>
+						<CodPais>MX</CodPais>
+					</Empleo>
+				</Empleos>
+				<Cuentas xmlns="http://bean.consulta.ws.bc.com/">
+					<Cuenta xmlns="http://bean.consulta.ws.bc.com/">
+						<FechaActualizacion>03052023</FechaActualizacion>
+						<ClaveOtorgante>FF76240002</ClaveOtorgante>
+						<NombreOtorgante>SORIANAFALABELLA</NombreOtorgante>
+						<NumeroTelefonoOtorgante>0</NumeroTelefonoOtorgante>
+						<IdentificadorSociedadInformacionCrediticia>0</IdentificadorSociedadInformacionCrediticia>
+						<NumeroCuentaActual>5223750069082071</NumeroCuentaActual>
+						<IndicadorTipoResponsabilidad>I</IndicadorTipoResponsabilidad>
+						<TipoCuenta>R</TipoCuenta>
+						<TipoContrato>CC</TipoContrato>
+						<ClaveUnidadMonetaria>MX</ClaveUnidadMonetaria>
+						<FrecuenciaPagos>Z</FrecuenciaPagos>
+						<MontoPagar>0</MontoPagar>
+						<FechaAperturaCuenta>30042023</FechaAperturaCuenta>
+						<FechaReporte>30042023</FechaReporte>
+						<ModoReportar>A</ModoReportar>
+						<CreditoMaximo>0</CreditoMaximo>
+						<SaldoActual>0+</SaldoActual>
+						<LimiteCredito>3000</LimiteCredito>
+						<SaldoVencido>0</SaldoVencido>
+						<FormaPagoActual>01</FormaPagoActual>
+					</Cuenta>
+					<Cuenta xmlns="http://bean.consulta.ws.bc.com/">
+						<FechaActualizacion>12052023</FechaActualizacion>
+						<NombreOtorgante>GUBERNAMENTALES</NombreOtorgante>
+						<NumeroTelefonoOtorgante>0</NumeroTelefonoOtorgante>
+						<IdentificadorSociedadInformacionCrediticia>0</IdentificadorSociedadInformacionCrediticia>
+						<IndicadorTipoResponsabilidad>I</IndicadorTipoResponsabilidad>
+						<TipoCuenta>I</TipoCuenta>
+						<TipoContrato>PL</TipoContrato>
+						<ClaveUnidadMonetaria>MX</ClaveUnidadMonetaria>
+						<NumeroPagos>15</NumeroPagos>
+						<FrecuenciaPagos>M</FrecuenciaPagos>
+						<MontoPagar>178</MontoPagar>
+						<FechaAperturaCuenta>29112022</FechaAperturaCuenta>
+						<FechaUltimoPago>10042023</FechaUltimoPago>
+						<FechaUltimaCompra>29112022</FechaUltimaCompra>
+						<FechaReporte>30042023</FechaReporte>
+						<ModoReportar>A</ModoReportar>
+						<CreditoMaximo>4272</CreditoMaximo>
+						<SaldoActual>1944+</SaldoActual>
+						<LimiteCredito>0</LimiteCredito>
+						<SaldoVencido>0</SaldoVencido>
+						<FormaPagoActual>01</FormaPagoActual>
+						<HistoricoPagos>11111</HistoricoPagos>
+						<FechaMasRecienteHistoricoPagos>30032023</FechaMasRecienteHistoricoPagos>
+						<FechaMasAntiguaHistoricoPagos>30112022</FechaMasAntiguaHistoricoPagos>
+						<MontoUltimoPago>178</MontoUltimoPago>
+					</Cuenta>
+					<Cuenta xmlns="http://bean.consulta.ws.bc.com/">
+						<FechaActualizacion>12052023</FechaActualizacion>
+						<NombreOtorgante>GUBERNAMENTALES</NombreOtorgante>
+						<NumeroTelefonoOtorgante>0</NumeroTelefonoOtorgante>
+						<IdentificadorSociedadInformacionCrediticia>0</IdentificadorSociedadInformacionCrediticia>
+						<IndicadorTipoResponsabilidad>I</IndicadorTipoResponsabilidad>
+						<TipoCuenta>I</TipoCuenta>
+						<TipoContrato>PL</TipoContrato>
+						<ClaveUnidadMonetaria>MX</ClaveUnidadMonetaria>
+						<NumeroPagos>24</NumeroPagos>
+						<FrecuenciaPagos>M</FrecuenciaPagos>
+						<MontoPagar>2119</MontoPagar>
+						<FechaAperturaCuenta>30112022</FechaAperturaCuenta>
+						<FechaUltimoPago>10042023</FechaUltimoPago>
+						<FechaUltimaCompra>30112022</FechaUltimaCompra>
+						<FechaReporte>30042023</FechaReporte>
+						<ModoReportar>A</ModoReportar>
+						<CreditoMaximo>50859</CreditoMaximo>
+						<SaldoActual>38407+</SaldoActual>
+						<LimiteCredito>0</LimiteCredito>
+						<SaldoVencido>0</SaldoVencido>
+						<FormaPagoActual>01</FormaPagoActual>
+						<HistoricoPagos>11111</HistoricoPagos>
+						<FechaMasRecienteHistoricoPagos>30032023</FechaMasRecienteHistoricoPagos>
+						<FechaMasAntiguaHistoricoPagos>30112022</FechaMasAntiguaHistoricoPagos>
+						<MontoUltimoPago>2119</MontoUltimoPago>
+					</Cuenta>
+					<Cuenta xmlns="http://bean.consulta.ws.bc.com/">
+						<FechaActualizacion>12052023</FechaActualizacion>
+						<NombreOtorgante>HIPOTECAGOBIERNO</NombreOtorgante>
+						<NumeroTelefonoOtorgante>0</NumeroTelefonoOtorgante>
+						<IdentificadorSociedadInformacionCrediticia>0</IdentificadorSociedadInformacionCrediticia>
+						<IndicadorTipoResponsabilidad>I</IndicadorTipoResponsabilidad>
+						<TipoCuenta>M</TipoCuenta>
+						<TipoContrato>RE</TipoContrato>
+						<ClaveUnidadMonetaria>MX</ClaveUnidadMonetaria>
+						<NumeroPagos>360</NumeroPagos>
+						<FrecuenciaPagos>M</FrecuenciaPagos>
+						<MontoPagar>4061</MontoPagar>
+						<FechaAperturaCuenta>17042018</FechaAperturaCuenta>
+						<FechaUltimoPago>07032023</FechaUltimoPago>
+						<FechaUltimaCompra>17042018</FechaUltimaCompra>
+						<FechaReporte>30042023</FechaReporte>
+						<ModoReportar>A</ModoReportar>
+						<CreditoMaximo>319999</CreditoMaximo>
+						<SaldoActual>321473+</SaldoActual>
+						<LimiteCredito>319999</LimiteCredito>
+						<SaldoVencido>0</SaldoVencido>
+						<FormaPagoActual>01</FormaPagoActual>
+						<HistoricoPagos>111111111111111111111111</HistoricoPagos>
+						<FechaMasRecienteHistoricoPagos>30032023</FechaMasRecienteHistoricoPagos>
+						<FechaMasAntiguaHistoricoPagos>30042018</FechaMasAntiguaHistoricoPagos>
+						<MontoUltimoPago>5471</MontoUltimoPago>
+					</Cuenta>
+					<Cuenta xmlns="http://bean.consulta.ws.bc.com/">
+						<FechaActualizacion>30112022</FechaActualizacion>
+						<NombreOtorgante>GUBERNAMENTALES</NombreOtorgante>
+						<NumeroTelefonoOtorgante>0</NumeroTelefonoOtorgante>
+						<IdentificadorSociedadInformacionCrediticia>0</IdentificadorSociedadInformacionCrediticia>
+						<IndicadorTipoResponsabilidad>I</IndicadorTipoResponsabilidad>
+						<TipoCuenta>I</TipoCuenta>
+						<TipoContrato>PL</TipoContrato>
+						<ClaveUnidadMonetaria>MX</ClaveUnidadMonetaria>
+						<NumeroPagos>22</NumeroPagos>
+						<FrecuenciaPagos>M</FrecuenciaPagos>
+						<MontoPagar>0</MontoPagar>
+						<FechaAperturaCuenta>20012021</FechaAperturaCuenta>
+						<FechaUltimoPago>29112022</FechaUltimoPago>
+						<FechaUltimaCompra>20012021</FechaUltimaCompra>
+						<FechaCierreCuenta>29112022</FechaCierreCuenta>
+						<FechaReporte>29112022</FechaReporte>
+						<ModoReportar>A</ModoReportar>
+						<CreditoMaximo>28962</CreditoMaximo>
+						<SaldoActual>0+</SaldoActual>
+						<LimiteCredito>0</LimiteCredito>
+						<SaldoVencido>0</SaldoVencido>
+						<FormaPagoActual>01</FormaPagoActual>
+						<HistoricoPagos>111111111111111111111111</HistoricoPagos>
+						<FechaMasRecienteHistoricoPagos>14102022</FechaMasRecienteHistoricoPagos>
+						<FechaMasAntiguaHistoricoPagos>14082020</FechaMasAntiguaHistoricoPagos>
+						<MontoUltimoPago>1207</MontoUltimoPago>
+					</Cuenta>
+					<Cuenta xmlns="http://bean.consulta.ws.bc.com/">
+						<FechaActualizacion>07052021</FechaActualizacion>
+						<NombreOtorgante>GUBERNAMENTALES</NombreOtorgante>
+						<NumeroTelefonoOtorgante>0</NumeroTelefonoOtorgante>
+						<IdentificadorSociedadInformacionCrediticia>0</IdentificadorSociedadInformacionCrediticia>
+						<IndicadorTipoResponsabilidad>I</IndicadorTipoResponsabilidad>
+						<TipoCuenta>I</TipoCuenta>
+						<TipoContrato>PL</TipoContrato>
+						<ClaveUnidadMonetaria>MX</ClaveUnidadMonetaria>
+						<NumeroPagos>18</NumeroPagos>
+						<FrecuenciaPagos>M</FrecuenciaPagos>
+						<MontoPagar>0</MontoPagar>
+						<FechaAperturaCuenta>10042019</FechaAperturaCuenta>
+						<FechaUltimoPago>10042019</FechaUltimoPago>
+						<FechaUltimaCompra>10042019</FechaUltimaCompra>
+						<FechaCierreCuenta>10042019</FechaCierreCuenta>
+						<FechaReporte>30042021</FechaReporte>
+						<ModoReportar>A</ModoReportar>
+						<CreditoMaximo>20655</CreditoMaximo>
+						<SaldoActual>0+</SaldoActual>
+						<LimiteCredito>0</LimiteCredito>
+						<SaldoVencido>0</SaldoVencido>
+						<FormaPagoActual>01</FormaPagoActual>
+						<HistoricoPagos>111111111111111111111111</HistoricoPagos>
+						<FechaMasRecienteHistoricoPagos>30032021</FechaMasRecienteHistoricoPagos>
+						<FechaMasAntiguaHistoricoPagos>30042019</FechaMasAntiguaHistoricoPagos>
+						<MontoUltimoPago>0</MontoUltimoPago>
+					</Cuenta>
+					<Cuenta xmlns="http://bean.consulta.ws.bc.com/">
+						<FechaActualizacion>07052019</FechaActualizacion>
+						<NombreOtorgante>GUBERNAMENTALES</NombreOtorgante>
+						<NumeroTelefonoOtorgante>0</NumeroTelefonoOtorgante>
+						<IdentificadorSociedadInformacionCrediticia>0</IdentificadorSociedadInformacionCrediticia>
+						<IndicadorTipoResponsabilidad>I</IndicadorTipoResponsabilidad>
+						<TipoCuenta>I</TipoCuenta>
+						<TipoContrato>PL</TipoContrato>
+						<ClaveUnidadMonetaria>MX</ClaveUnidadMonetaria>
+						<NumeroPagos>12</NumeroPagos>
+						<FrecuenciaPagos>M</FrecuenciaPagos>
+						<MontoPagar>0</MontoPagar>
+						<FechaAperturaCuenta>12032018</FechaAperturaCuenta>
+						<FechaUltimoPago>02042019</FechaUltimoPago>
+						<FechaUltimaCompra>12032018</FechaUltimaCompra>
+						<FechaCierreCuenta>02042019</FechaCierreCuenta>
+						<FechaReporte>30042019</FechaReporte>
+						<ModoReportar>A</ModoReportar>
+						<CreditoMaximo>14143</CreditoMaximo>
+						<SaldoActual>0+</SaldoActual>
+						<LimiteCredito>0</LimiteCredito>
+						<SaldoVencido>0</SaldoVencido>
+						<FormaPagoActual>01</FormaPagoActual>
+						<HistoricoPagos>1111111111111</HistoricoPagos>
+						<FechaMasRecienteHistoricoPagos>31032019</FechaMasRecienteHistoricoPagos>
+						<FechaMasAntiguaHistoricoPagos>28032018</FechaMasAntiguaHistoricoPagos>
+						<MontoUltimoPago>0</MontoUltimoPago>
+					</Cuenta>
+				</Cuentas>
+				<ConsultasEfectuadas xmlns="http://bean.consulta.ws.bc.com/">
+					<ConsultaEfectuada xmlns="http://bean.consulta.ws.bc.com/">
+						<FechaConsulta>01062023</FechaConsulta>
+						<IdentificacionBuro>0000</IdentificacionBuro>
+						<NombreOtorgante>BURO DE CREDITO </NombreOtorgante>
+						<TelefonoOtorgante>54494832</TelefonoOtorgante>
+						<TipoContrato>CC</TipoContrato>
+						<ClaveUnidadMonetaria>MX</ClaveUnidadMonetaria>
+						<ImporteContrato>000000000</ImporteContrato>
+						<ResultadoFinal>1</ResultadoFinal>
+						<IdentificadorOrigenConsulta>1</IdentificadorOrigenConsulta>
+					</ConsultaEfectuada>
+					<ConsultaEfectuada xmlns="http://bean.consulta.ws.bc.com/">
+						<FechaConsulta>01062023</FechaConsulta>
+						<ClaveOtorgante>FF76241001</ClaveOtorgante>
+						<NombreOtorgante>SORIANAFALABELLA</NombreOtorgante>
+						<TipoContrato>CC</TipoContrato>
+						<ImporteContrato>0</ImporteContrato>
+						<IndicadorTipoResponsabilidad>I</IndicadorTipoResponsabilidad>
+						<ResultadoFinal>0</ResultadoFinal>
+						<IdentificadorOrigenConsulta>0</IdentificadorOrigenConsulta>
+					</ConsultaEfectuada>
+					<ConsultaEfectuada xmlns="http://bean.consulta.ws.bc.com/">
+						<FechaConsulta>30042023</FechaConsulta>
+						<IdentificacionBuro>0000</IdentificacionBuro>
+						<NombreOtorgante>BURO DE CREDITO </NombreOtorgante>
+						<TipoContrato>CC</TipoContrato>
+						<ClaveUnidadMonetaria>MX</ClaveUnidadMonetaria>
+						<ImporteContrato>000000000</ImporteContrato>
+						<ResultadoFinal>1</ResultadoFinal>
+						<IdentificadorOrigenConsulta>1</IdentificadorOrigenConsulta>
+					</ConsultaEfectuada>
+					<ConsultaEfectuada xmlns="http://bean.consulta.ws.bc.com/">
+						<FechaConsulta>30042023</FechaConsulta>
+						<ClaveOtorgante>FF76241001</ClaveOtorgante>
+						<NombreOtorgante>SORIANAFALABELLA</NombreOtorgante>
+						<TipoContrato>CC</TipoContrato>
+						<ImporteContrato>0</ImporteContrato>
+						<IndicadorTipoResponsabilidad>I</IndicadorTipoResponsabilidad>
+						<ResultadoFinal>0</ResultadoFinal>
+						<IdentificadorOrigenConsulta>0</IdentificadorOrigenConsulta>
+					</ConsultaEfectuada>
+					<ConsultaEfectuada xmlns="http://bean.consulta.ws.bc.com/">
+						<FechaConsulta>20042023</FechaConsulta>
+						<NombreOtorgante>BANCO</NombreOtorgante>
+						<TipoContrato>CC</TipoContrato>
+						<ImporteContrato>0</ImporteContrato>
+						<IndicadorTipoResponsabilidad>I</IndicadorTipoResponsabilidad>
+						<ResultadoFinal>0</ResultadoFinal>
+						<IdentificadorOrigenConsulta>0</IdentificadorOrigenConsulta>
+					</ConsultaEfectuada>
+					<ConsultaEfectuada xmlns="http://bean.consulta.ws.bc.com/">
+						<FechaConsulta>17022023</FechaConsulta>
+						<NombreOtorgante>BANCO</NombreOtorgante>
+						<TipoContrato>CC</TipoContrato>
+						<ImporteContrato>0</ImporteContrato>
+						<IndicadorTipoResponsabilidad>I</IndicadorTipoResponsabilidad>
+						<ResultadoFinal>0</ResultadoFinal>
+						<IdentificadorOrigenConsulta>0</IdentificadorOrigenConsulta>
+					</ConsultaEfectuada>
+					<ConsultaEfectuada xmlns="http://bean.consulta.ws.bc.com/">
+						<FechaConsulta>19122022</FechaConsulta>
+						<NombreOtorgante>BANCO</NombreOtorgante>
+						<TipoContrato>CC</TipoContrato>
+						<ImporteContrato>0</ImporteContrato>
+						<IndicadorTipoResponsabilidad>I</IndicadorTipoResponsabilidad>
+						<ResultadoFinal>0</ResultadoFinal>
+						<IdentificadorOrigenConsulta>0</IdentificadorOrigenConsulta>
+					</ConsultaEfectuada>
+					<ConsultaEfectuada xmlns="http://bean.consulta.ws.bc.com/">
+						<FechaConsulta>29112022</FechaConsulta>
+						<NombreOtorgante>FONDOS Y FIDEIC</NombreOtorgante>
+						<TipoContrato>PL</TipoContrato>
+						<ImporteContrato>0</ImporteContrato>
+						<IndicadorTipoResponsabilidad>I</IndicadorTipoResponsabilidad>
+						<ResultadoFinal>0</ResultadoFinal>
+						<IdentificadorOrigenConsulta>0</IdentificadorOrigenConsulta>
+					</ConsultaEfectuada>
+				</ConsultasEfectuadas>
+				<ResumenReporte xmlns="http://bean.consulta.ws.bc.com/">
+					<ResumenReporte xmlns="http://bean.consulta.ws.bc.com/">
+						<FechaIngresoBD>28062007</FechaIngresoBD>
+						<NumeroMOP7>00</NumeroMOP7>
+						<NumeroMOP6>00</NumeroMOP6>
+						<NumeroMOP5>00</NumeroMOP5>
+						<NumeroMOP4>00</NumeroMOP4>
+						<NumeroMOP3>00</NumeroMOP3>
+						<NumeroMOP2>00</NumeroMOP2>
+						<NumeroMOP1>07</NumeroMOP1>
+						<NumeroMOP0>00</NumeroMOP0>
+						<NumeroMOPUR>00</NumeroMOPUR>
+						<NumeroCuentas>0007</NumeroCuentas>
+						<CuentasPagosFijosHipotecas>0006</CuentasPagosFijosHipotecas>
+						<CuentasRevolventesAbiertas>0001</CuentasRevolventesAbiertas>
+						<CuentasCerradas>0003</CuentasCerradas>
+						<CuentasNegativasActuales>0000</CuentasNegativasActuales>
+						<CuentasClavesHistoriaNegativa>0000</CuentasClavesHistoriaNegativa>
+						<CuentasDisputa>00</CuentasDisputa>
+						<NumeroSolicitudesUltimos6Meses>06</NumeroSolicitudesUltimos6Meses>
+						<NuevaDireccionReportadaUltimos60Dias>Y</NuevaDireccionReportadaUltimos60Dias>
+						<MensajesAlerta>NNYNY</MensajesAlerta>
+						<ExistenciaDeclaracionesConsumidor>N</ExistenciaDeclaracionesConsumidor>
+						<TipoMoneda>MX</TipoMoneda>
+						<TotalCreditosMaximosRevolventes>000000000</TotalCreditosMaximosRevolventes>
+						<TotalLimitesCreditoRevolventes>000003000</TotalLimitesCreditoRevolventes>
+						<TotalSaldosActualesRevolventes>000000000+</TotalSaldosActualesRevolventes>
+						<TotalSaldosVencidosRevolventes>000000000</TotalSaldosVencidosRevolventes>
+						<TotalPagosRevolventes>000000000</TotalPagosRevolventes>
+						<PctLimiteCreditoUtilizadoRevolventes>000</PctLimiteCreditoUtilizadoRevolventes>
+						<TotalCreditosMaximosPagosFijos>000375130</TotalCreditosMaximosPagosFijos>
+						<TotalSaldosActualesPagosFijos>000361824+</TotalSaldosActualesPagosFijos>
+						<TotalSaldosVencidosPagosFijos>000000000</TotalSaldosVencidosPagosFijos>
+						<TotalPagosPagosFijos>000006358</TotalPagosPagosFijos>
+						<NumeroMOP96>00</NumeroMOP96>
+						<NumeroMOP97>00</NumeroMOP97>
+						<NumeroMOP99>00</NumeroMOP99>
+						<FechaAperturaCuentaMasAntigua>12032018</FechaAperturaCuentaMasAntigua>
+						<FechaAperturaCuentaMasReciente>30042023</FechaAperturaCuentaMasReciente>
+						<TotalSolicitudesReporte>07</TotalSolicitudesReporte>
+						<FechaSolicitudReporteMasReciente>01062023</FechaSolicitudReporteMasReciente>
+						<NumeroTotalCuentasDespachoCobranza>00</NumeroTotalCuentasDespachoCobranza>
+						<FechaAperturaCuentaMasRecienteDespachoCobranza>00000000</FechaAperturaCuentaMasRecienteDespachoCobranza>
+						<NumeroTotalSolicitudesDespachosCobranza>00</NumeroTotalSolicitudesDespachosCobranza>
+						<FechaSolicitudMasRecienteDespachoCobranza>00000000</FechaSolicitudMasRecienteDespachoCobranza>
+					</ResumenReporte>
+				</ResumenReporte>
+				<HawkAlertConsulta xmlns="http://bean.consulta.ws.bc.com/"/>
+				<HawkAlertBD xmlns="http://bean.consulta.ws.bc.com/"/>
+				<DeclaracionesCliente xmlns="http://bean.consulta.ws.bc.com/"/>
+				<ScoreBuroCredito xmlns="http://bean.consulta.ws.bc.com/">
+					<ScoreBC xmlns="http://bean.consulta.ws.bc.com/">
+						<nombreScore>BC SCORE</nombreScore>
+						<CodigoScore>007</CodigoScore>
+						<ValorScore>0665</ValorScore>
+						<CodigoRazon>22</CodigoRazon>
+						<CodigoRazon>13</CodigoRazon>
+						<CodigoRazon>09</CodigoRazon>
+					</ScoreBC>
+				</ScoreBuroCredito>
+				<Error xmlns="http://bean.consulta.ws.bc.com/">
+					<AR/>
+					<UR/>
+				</Error>
+				<Caracteristicas xmlns="http://bean.consulta.ws.bc.com/"/>
+				<ReportePDF/>
+				<FR/>
+			</Persona>
+		</Personas>
+	</return>
+	<idSolicitud>200000156</idSolicitud>
+	<tipoSic>B</tipoSic>
+</Response>

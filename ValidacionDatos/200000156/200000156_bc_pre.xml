@@ -1,0 +1,60 @@
+<Response>
+	<return xmlns="http://bean.consulta.ws.bc.com/">
+		<Personas xmlns="http://bean.consulta.ws.bc.com/">
+			<Persona xmlns="http://bean.consulta.ws.bc.com/">
+				<Encabezado xmlns="http://bean.consulta.ws.bc.com/">
+					<NumeroReferenciaOperador>1234567890123456789012345</NumeroReferenciaOperador>
+					<ClavePais>MX</ClavePais>
+					<IdentificadorBuro>0000</IdentificadorBuro>
+					<ClaveOtorgante>FF76241009</ClaveOtorgante>
+					<ClaveRetornoConsumidorPrincipal>1</ClaveRetornoConsumidorPrincipal>
+					<ClaveRetornoConsumidorSecundario>0</ClaveRetornoConsumidorSecundario>
+					<NumeroControlConsulta>2909295486</NumeroControlConsulta>
+				</Encabezado>
+				<Nombre xmlns="http://bean.consulta.ws.bc.com/">
+					<ApellidoPaterno>ARMIJO</ApellidoPaterno>
+					<ApellidoMaterno>MIRAMONTES</ApellidoMaterno>
+					<PrimerNombre>CLAUDIA</PrimerNombre>
+					<SegundoNombre>CELINA</SegundoNombre>
+					<RFC>AIMC821021</RFC>
+				</Nombre>
+				<Domicilios xmlns="http://bean.consulta.ws.bc.com/">
+					<Domicilio xmlns="http://bean.consulta.ws.bc.com/">
+						<Direccion1>CIRUELW</Direccion1>
+						<Direccion2>12702 29</Direccion2>
+						<ColoniaPoblacion>LOMAS DE SAN PEDRO</ColoniaPoblacion>
+						<DelegacionMunicipio>TIJUANA</DelegacionMunicipio>
+						<Estado>BCN</Estado>
+						<CP>22263</CP>
+					</Domicilio>
+				</Domicilios>
+				<Empleos xmlns="http://bean.consulta.ws.bc.com/"/>
+				<Cuentas xmlns="http://bean.consulta.ws.bc.com/"/>
+				<ConsultasEfectuadas xmlns="http://bean.consulta.ws.bc.com/"/>
+				<ResumenReporte xmlns="http://bean.consulta.ws.bc.com/"/>
+				<HawkAlertConsulta xmlns="http://bean.consulta.ws.bc.com/"/>
+				<HawkAlertBD xmlns="http://bean.consulta.ws.bc.com/"/>
+				<DeclaracionesCliente xmlns="http://bean.consulta.ws.bc.com/"/>
+				<ScoreBuroCredito xmlns="http://bean.consulta.ws.bc.com/">
+					<ScoreBC xmlns="http://bean.consulta.ws.bc.com/">
+						<nombreScore>BC SCORE</nombreScore>
+						<CodigoScore>007</CodigoScore>
+						<ValorScore>0665</ValorScore>
+						<CodigoRazon>22</CodigoRazon>
+						<CodigoRazon>13</CodigoRazon>
+						<CodigoRazon>09</CodigoRazon>
+					</ScoreBC>
+				</ScoreBuroCredito>
+				<Error xmlns="http://bean.consulta.ws.bc.com/">
+					<AR/>
+					<UR/>
+				</Error>
+				<Caracteristicas xmlns="http://bean.consulta.ws.bc.com/"/>
+				<ReportePDF/>
+				<FR/>
+			</Persona>
+		</Personas>
+	</return>
+	<idSolicitud>200000156</idSolicitud>
+	<tipoSic>B</tipoSic>
+</Response>

@@ -1,0 +1,22 @@
+<EstrategiaPreevaluacionInput>
+	<datosBuroConexionconectado>1</datosBuroConexionconectado>
+	<datosBuroFlagconexion>1</datosBuroFlagconexion>
+	<datosBuroScorecodigoerror>0</datosBuroScorecodigoerror>
+	<datosBuroScorecodigorazon>22,13,09</datosBuroScorecodigorazon>
+	<datosBuroScorecodigoscore>7</datosBuroScorecodigoscore>
+	<datosBuroScorenombrescore>BC SCORE</datosBuroScorenombrescore>
+	<datosBuroScorevalorscore>665</datosBuroScorevalorscore>
+	<datosBuroTiposic>1</datosBuroTiposic>
+	<datosClienteExistenteApellidomaternosolicitud>MIRAMONTES</datosClienteExistenteApellidomaternosolicitud>
+	<datosClienteExistenteApellidopaternosolicitud>ARMIJO</datosClienteExistenteApellidopaternosolicitud>
+	<datosClienteExistenteCurp>AIMC821021MJCRRL07</datosClienteExistenteCurp>
+	<datosClienteExistenteEmpleadoflag>0</datosClienteExistenteEmpleadoflag>
+	<datosClienteExistenteFechadenacimiento>1982-10-21</datosClienteExistenteFechadenacimiento>
+	<datosClienteExistenteNombresolicitud>CLAUDIA CELINA</datosClienteExistenteNombresolicitud>
+	<datosSolicitudCanalevaluacion>1</datosSolicitudCanalevaluacion>
+	<datosSolicitudCanalorigen>2</datosSolicitudCanalorigen>
+	<datosSolicitudSucursalapertura/>
+	<datosClienteExistenteCodigopostal>22263</datosClienteExistenteCodigopostal>
+	<datosClienteExistenteGenero>FEMALE</datosClienteExistenteGenero>
+	<datosSolicitudTipoevaluacion>1</datosSolicitudTipoevaluacion>
+</EstrategiaPreevaluacionInput>

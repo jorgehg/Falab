@@ -1,0 +1,31 @@
+<EstrategiaEvaluacionInput>
+	<datosBuroConexionconectado>1</datosBuroConexionconectado>
+	<datosBuroConexionconectado>2</datosBuroConexionconectado>
+	<datosBuroFlagconexion>1</datosBuroFlagconexion>
+	<datosBuroFlagconexion>1</datosBuroFlagconexion>
+	<datosBuroScorecodigoerror>0</datosBuroScorecodigoerror>
+	<datosBuroScorecodigoerror>0</datosBuroScorecodigoerror>
+	<datosBuroScorecodigorazon>22,13,09</datosBuroScorecodigorazon>
+	<datosBuroScorecodigorazon/>
+	<datosBuroScorecodigoscore>7</datosBuroScorecodigoscore>
+	<datosBuroScorecodigoscore>0</datosBuroScorecodigoscore>
+	<datosBuroScorenombrescore>BC SCORE</datosBuroScorenombrescore>
+	<datosBuroScorenombrescore/>
+	<datosBuroScorevalorscore>665</datosBuroScorevalorscore>
+	<datosBuroScorevalorscore>0</datosBuroScorevalorscore>
+	<datosBuroTiposic>1</datosBuroTiposic>
+	<datosBuroTiposic>0</datosBuroTiposic>
+	<datosClienteExistenteApellidomaternosolicitud>MIRAMONTES</datosClienteExistenteApellidomaternosolicitud>
+	<datosClienteExistenteApellidopaternosolicitud>ARMIJO</datosClienteExistenteApellidopaternosolicitud>
+	<datosClienteExistenteCurp>AIMC821021MJCRRL07</datosClienteExistenteCurp>
+	<datosClienteExistenteEmpleadoflag>0</datosClienteExistenteEmpleadoflag>
+	<datosClienteExistenteFechadenacimiento>1982-10-21</datosClienteExistenteFechadenacimiento>
+	<datosClienteExistenteNombresolicitud>CLAUDIA CELINA</datosClienteExistenteNombresolicitud>
+	<datosSolicitudCanalevaluacion>1</datosSolicitudCanalevaluacion>
+	<datosSolicitudCanalorigen>2</datosSolicitudCanalorigen>
+	<datosSolicitudSucursalapertura/>
+	<datosClienteExistenteCodigopostal>22263</datosClienteExistenteCodigopostal>
+	<datosClienteExistenteGenero>FEMALE</datosClienteExistenteGenero>
+	<datosSolicitudTipoevaluacion>1</datosSolicitudTipoevaluacion>
+	<datosClienteExistenteNacionalidad>MEXICANO</datosClienteExistenteNacionalidad>
+</EstrategiaEvaluacionInput>
