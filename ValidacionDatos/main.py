@@ -13,9 +13,7 @@ def main():
     #leerCuentas(responses_buro[2][4])
     print((responses_buro[2][4][0].find('NombreOtorgante').text))
 
-    
-
-
+# FUNCIONES
 
 def lecturaXML(url):
     with open(url) as file:

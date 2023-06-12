@@ -2,15 +2,15 @@ import pandas as pd
 import csv, os
 import oracledb as ora
 
-ora.init_oracle_client(r"instantclient-basic-windows.x64-21.9.0.0.0dbru\instantclient_21_9")
+ora.init_oracle_client(r"C:\Users\ext_johirayg\Documents\Desarrollo\Originacion_Input_Generator\instantclient-basic-windows.x64-21.9.0.0.0dbru\instantclient_21_9")
 db = ora.connect(user="UATMXPR",password="uatmx286p5",host="10.1.36.125", port=1531, service_name="ecmxpr")
 cur = db.cursor()
 # Se obtiene el directorio de queries e inicializan listas necesarias
-files = os.listdir('queries')
+files = os.listdir('Originacion_Input_Generator\queries')
 queries = []
 
 # Se leen las IDs de solicitudes
-df = pd.read_csv('cuentas.csv')
+df = pd.read_csv('Originacion_Input_Generator\cuentas.csv')
 cuentas = df[df.columns[0]]
 
 # Declaracion de variables y calculos
@@ -22,7 +22,7 @@ residuo = len(cuentas) % 250
 isResiduo = False
 
 # Lectura de encabezado de datos input
-with open('input.csv','r') as inputcsv:
+with open('Originacion_Input_Generator\input.csv','r') as inputcsv:
     reader = csv.reader(inputcsv)
     header = next(reader)
 header.insert(0,'IDSOLICITUD')
@@ -38,7 +38,7 @@ for id in cuentas:
     solicitudes = solicitudes + "'"+str(id)+"'," 
 
 for file in files:
-    with open('queries/'+file,'r') as f:
+    with open('Originacion_Input_Generator/queries/'+file,'r') as f:
         queries.append(f.read()) 
 # Formateo de queries
 for y in range(len(queries)):
@@ -58,12 +58,7 @@ dataframe.columns = header
 
 dataframe = dataframe.drop_duplicates(subset=['IDSOLICITUD'])
 
-outfile = 'pruebasLeslie.csv'
+outfile = 'ConExpSinTC.csv'
 dataframe.to_csv(outfile,index=False)
+db.close()
 print('LISTO. Proceso Finalizado. Archivo Exportado: ', outfile)
-
-
-
-db.close() 
-
-print('LISTOOOOOOOOOOOOOO')
